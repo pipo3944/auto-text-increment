@@ -64,7 +64,8 @@ const HomeMain: React.FC<HomeMainProps> = () => {
           <Form.Input value={digits} fluid label='Digits' placeholder='1' type="number" onChange={(_:any, {value}: any) => setDigits(value) } />
         </Form.Group>
       </Form>
-      <BePrismEditor code={code} onChange={setCode} />
+
+      <BePrismEditor code={code} onChange={setCode} placeholder="Input text..." />
 
       <div style={{textAlign: 'center'}}>
         <Button positive style={{margin: '2em 1em'}} onClick={convert}>Convert!!</Button>

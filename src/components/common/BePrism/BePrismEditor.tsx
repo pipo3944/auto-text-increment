@@ -7,6 +7,7 @@ import Editor from 'react-simple-code-editor'
 
 type BePrismEditorProps = {
   code: string,
+  placeholder?: string,
   onChange: (code: string) => void,
 }
 
@@ -21,6 +22,7 @@ const styles = {
 
 const BePrismEditor: React.FC<BePrismEditorProps> = ({
   code,
+  placeholder,
   onChange,
 }) => {
 
@@ -46,6 +48,7 @@ const BePrismEditor: React.FC<BePrismEditorProps> = ({
           highlight={highlight}
           padding={10}
           style={styles.root as React.CSSProperties}
+          placeholder={placeholder}
         />
     </BePrismStyle>
   )
