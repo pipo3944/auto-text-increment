@@ -41,7 +41,7 @@ const HomeMain: React.FC<HomeMainProps> = () => {
       <Header as='h1' textAlign="center">Online String Incremeter</Header>
       
       <p>
-        By using this page, the work of dropping the index will be much easier! <br/>
+        By using this page, the work of allocating the index will be much easier! <br/>
         Please take advantage of it!
       </p>
 
