@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import replaceAll from "./replaceAll";
 
 const myReplaceStr = '_____POSTSTR____';
